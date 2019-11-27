@@ -221,6 +221,18 @@ nav {
   text-decoration: underline;
 }
 
+.term-of-use-text {
+  width: 320px;   
+  font-style: italic;   
+  font-size: 12px;
+  color: #757575;
+  line-height: 18px;
+}
+
+.form .gap {
+    flex: 1;
+}
+
 /* form */
 
 form {
@@ -296,6 +308,23 @@ form .gap {
     margin-bottom: 41px;
 }
 
+/* Form footer */
+.form-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 53px;
+  background-color: #ECEEF1;
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;  
+}
+
+.form-footer a {
+    font-size: inherit;
+}
+
 /* footer */
 
 footer {
@@ -304,6 +333,7 @@ footer {
   font-size: 12px;
   line-height: 18px;
   color: #505050;
+  padding: 20px 0;
 }
 
 .footer-inner-wrapper-two {
