@@ -1,0 +1,433 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #eceef1;
+}
+
+/* header */
+
+header a {
+  display: block;
+  width: 118px;
+  height: 35px;
+  margin: 0 auto;
+  text-decoration: none;
+  opacity: 0;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/ecosystem_logos_new@2x.png);
+  background-size: 562px 83px;
+  animation: 733ms fade-in 733ms ease-in forwards;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  padding: 10px 30px;
+  outline: none;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: right;
+  color: #505050;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.nav-button {
+  display: flex !important;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  background-color: #0077c5;
+  border: 1px solid #4c4c4c;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.nav-button:focus {
+  outline: none;
+}
+
+.footer-inner-wrapper-two span {
+  text-align: center;
+}
+
+.nav-button span:first-of-type {
+  display: inline-block;
+  width: 10.8px;
+  height: 13.5px;
+  margin-right: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png);
+}
+
+.nav-button span:last-of-type {
+  display: inline-block;
+}
+
+/* icon links */
+
+.icon-links {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  height: 42px;
+  margin: 10px 0;
+}
+
+form .gap {
+  height: 30px;
+}
+
+.form .gap {
+  flex: 1;
+}
+
+.icon-links .gap {
+  width: 9px;
+}
+
+.icon-links a {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer-links .gap {
+  width: 10px;
+}
+
+.icon-links a .gap {
+  width: 4px;
+}
+
+.mint-icon {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/mint-favicon.svg) no-repeat;
+  transform: translateX(142px);
+  animation: 1.466s grow-icon ease-in forwards, 1.1s slide-left 1.466s cubic-bezier(0.7, 0, 0, 1) forwards;
+}
+
+.mint-text {
+  display: inline-block;
+  width: 37px;
+  height: 20px;
+  opacity: 0;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/mint-text.svg) no-repeat;
+  transform: translateX(142px);
+  animation: 1.1s slide-left 1.466s cubic-bezier(0.7, 0, 0, 1) forwards, 533ms fade-in 1.667s ease-in forwards;
+}
+
+.quickbooks-icon {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  opacity: 0;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/quickbooks-favicon@2x.svg) no-repeat;
+  transform: translateX(142px);
+  animation: 1.1s slide-left 1.733s cubic-bezier(0.7, 0, 0, 1) forwards, 733ms fade-in 2.1s ease-in forwards;
+}
+
+.quickbooks-text {
+  display: inline-block;
+  width: 98px;
+  height: 22px;
+  opacity: 0;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/quick-books-text.svg) no-repeat;
+  transform: translateX(142px);
+  animation: 1.1s slide-left 1.733s cubic-bezier(0.7, 0, 0, 1) forwards, 733ms fade-in 2.1s ease-in forwards;
+}
+
+.turbotax-icon {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  opacity: 0;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/tt-favicon@2x.svg) no-repeat;
+  transform: translateX(142px);
+  animation: 1.1s slide-left 2s cubic-bezier(0.7, 0, 0, 1) forwards, 733ms fade-in 2.367s ease-in forwards;
+}
+
+.turbotax-text {
+  display: inline-block;
+  width: 74px;
+  height: 22px;
+  opacity: 0;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/turbo-tax-text.svg) no-repeat;
+  transform: translateX(142px);
+  animation: 1.1s slide-left 2s cubic-bezier(0.7, 0, 0, 1) forwards, 733ms fade-in 2.367s ease-in forwards;
+}
+
+/* main form wrapper */
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+  width: 380px;
+  height: 668px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form-title {
+  color: #4c4c4c;
+  line-height: 26.4px;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.form-sub-title {
+  margin-top: 20px;
+  color: #4c4c4c;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.form a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #0077c5;
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.form-footer a {
+  font-size: inherit;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #505050;
+  font-size: 12px;
+  text-align: center;
+}
+
+.form a:hover {
+  text-decoration: underline;
+}
+
+.term-of-use-text {
+  width: 320px;
+  font-style: italic;
+  font-size: 12px;
+  color: #757575;
+  line-height: 18px;
+}
+
+/* form */
+
+form {
+  width: 320px;
+}
+
+form label {
+  display: block;
+  padding-bottom: 6px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #404040;
+}
+
+form input {
+  width: 320px;
+  height: 34px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  font-size: 16.8px;
+  line-height: 21.84px;
+  color: #000;
+  outline: 0;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.call-info {
+  padding: 5px 0;
+  font-size: 10px;
+  line-height: 15px;
+  color: #444;
+  outline: 0;
+  text-align: left;
+}
+
+.password {
+  margin-top: 25px;
+}
+
+.password-icon-wrapper {
+  position: relative;
+}
+
+#password {
+  padding-right: 33px;
+}
+
+.password-icon {
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png) 0 50%/21px 21px no-repeat;
+  width: 33px;
+  position: absolute;
+  right: 1px;
+  height: 32px;
+  top: 1px;
+  bottom: 1px;
+}
+
+.form-button {
+  height: 44px;
+  width: 100%;
+  margin-bottom: 41px;
+}
+
+/* Form footer */
+.form-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 53px;
+  background-color: #eceef1;
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 18px;
+  color: #505050;
+  padding: 20px 0;
+}
+
+.footer-inner-wrapper-two {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.footer-inner-wrapper-one {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.footer-links {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes grow-icon {
+  0% {
+    width: 23px;
+    height: 23px;
+  }
+
+  50% {
+    width: 40px;
+    height: 40px;
+  }
+
+  100% {
+    width: 23px;
+    height: 23px;
+  }
+}
+
+@-webkit-keyframes grow-icon {
+  0% {
+    width: 23px;
+    height: 23px;
+  }
+
+  50% {
+    width: 40px;
+    height: 40px;
+  }
+
+  100% {
+    width: 23px;
+    height: 23px;
+  }
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(142px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}

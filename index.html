@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Intuit Accounts - Sign In</title>
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <nav>
+        <div class="nav-link">
+            <div>Already have an Intuit account?</div>
+            <a href="javascript:void(0);">I forgot my User ID or Password</a>
+        </div>
+        <button class="nav-button"><span></span><span>Sign In</span></button>
+    </nav>
+    <header>
+        <a href="javascipt:void(0);"></a>
+    </header>
+    <main>
+        <div class="icon-links">
+            <a href="javascript:void(0);">
+                <div class="mint-icon"></div>
+                <div class="gap"></div>
+                <div class="mint-text"></div>
+            </a>
+            <div class="gap"></div>   
+            <a href="javascript:void(0);">
+                <div class="quickbooks-icon"></div>
+                <div class="gap"></div>
+                <div class="quickbooks-text"></div>
+            </a>
+            <div class="gap"></div>   
+            <a href="javascript:void(0);">
+                <div class="turbotax-icon"></div>
+                <div class="gap"></div>
+                <div class="turbotax-text"></div>
+            </a>   
+        </div>
+        <div class="form-wrapper">
+            <div class="form">
+                <div class="form-title">Create an Intuit account</div>
+                <div class="form-sub-title">
+                    One account for everything Intuit, including Mint. 
+                </div>
+                <a href="javascript:void(0);">Learn more</a>
+                <form action="post">
+                    <label for="email">Email address</label>
+                    <input id="email" class="" placeholder="" maxlength="100" type="email" aria-required="true" required="required" autocomplete="off" data-valid="valid">
+                    <div class="gap"></div>
+                    <label for="mobile-phone">Phone <span>(recommended)</span></label>
+                    <input id="mobile-phone" autocomplete="off" placeholder="" type="tel" maxlength="30" data-valid="valid">
+                    <div class="call-info">Standard call, messaging or data rates may apply.</div>
+                    <label class="password" for="password">Password</label>
+                    <div class="password-icon-wrapper">
+                        <input id="password" autocomplete="new-password" placeholder="​" maxlength="50" type="password" aria-required="true" required="required">
+                        <span class="password-icon"></span>
+                    </div>
+                    <div class="gap"></div>
+                    <button class="form-button nav-button" onclick="return false;"><span></span><span>Create Account</span></button>
+                </form>     
+                <div class="term-of-use-text">
+                    By clicking <span>Create account</span>, you agree to our<br><a href="javascript:void(0);">Terms</a><span>&nbsp;and have read and acknowledge our&nbsp;</span><a href="javascript:void(0);">Privacy Statement</a>
+                </div> 
+                <div class="gap"></div>   
+                <div class="form-footer">
+                    <span>
+                        Invisible reCAPTCHA by Google <a href="javascript:void(0);" target="_blank">Privacy Policy</a><span id="ius-sign-up-consent-and">&nbsp;and&nbsp;</span><a id="ius-captcha-terms" href="https://www.google.com/intl/en/policies/terms/">Terms of Use</a>.
+                    </span>
+                </div>   
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-inner-wrapper-one">
+            <div class="footer-inner-wrapper-two">
+                <div class="footer-links">
+                    <a href="javascript:void(0);">Legal</a>
+                    <div class="gap"></div>
+                    <a href="javascript:void(0);">Privacy</a>
+                    <div class="gap"></div>
+                    <a href="javascript:void(0);">Security</a>
+                </div>
+                <span>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
+                <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>                
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
