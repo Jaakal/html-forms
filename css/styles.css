@@ -64,3 +64,49 @@ nav {
     background-repeat: no-repeat;
     background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png);
 }
+
+/* footer */
+.footer-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #505050;
+    font-size: 12px;
+    text-align: center;    
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links .gap {
+    width: 10px;
+}
+
+.footer-inner-wrapper-one {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.footer-inner-wrapper-two {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 18px;
+    color: #505050
+}
+
+.footer-inner-wrapper-two span {
+    text-align: center;
+}
