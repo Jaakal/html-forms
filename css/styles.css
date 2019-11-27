@@ -93,6 +93,7 @@ nav {
   flex-flow: row nowrap;
   justify-content: center;
   height: 42px;
+  margin: 10px 0;
 }
 
 .icon-links .gap {
@@ -174,7 +175,6 @@ nav {
 .form-wrapper {
   display: flex;
   justify-content: center;
-
 }
 
 .form {
@@ -196,21 +196,21 @@ nav {
 }
 
 .form-title {
-    color: #4C4C4C;    
-    line-height: 26.4px;    
-    font-size: 24px;
-    margin-top: 30px;
+  color: #4c4c4c;
+  line-height: 26.4px;
+  font-size: 24px;
+  margin-top: 30px;
 }
 
 .form-sub-title {
-    margin-top: 20px;
-    color: #4c4c4c;
-    font-size: 14px;
-    line-height: 16.8px;
+  margin-top: 20px;
+  color: #4c4c4c;
+  font-size: 14px;
+  line-height: 16.8px;
 }
 
 .form a {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
   text-decoration: none;
   color: #0077c5;
   font-size: 12px;
@@ -222,90 +222,90 @@ nav {
 }
 
 .term-of-use-text {
-  width: 320px;   
-  font-style: italic;   
+  width: 320px;
+  font-style: italic;
   font-size: 12px;
   color: #757575;
   line-height: 18px;
 }
 
 .form .gap {
-    flex: 1;
+  flex: 1;
 }
 
 /* form */
 
 form {
-    width: 320px;
+  width: 320px;
 }
 
 form label {
-    display: block;
-    padding-bottom: 6px;
-    text-align: left;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 25px;
-    color: #404040;
+  display: block;
+  padding-bottom: 6px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #404040;
 }
 
 form input {
-    width: 320px;
-    height: 34px;
-    min-width: 160px;
-    padding-left: 8px;
-    padding-right: 6px;
-    border: 1px solid #C1C5C8;
-    border-radius: 3px;
-    font-size: 16.8px;
-    line-height: 21.84px;
-    color: #000;
-    outline: 0;
-    -ms-box-sizing: border-box;
+  width: 320px;
+  height: 34px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  font-size: 16.8px;
+  line-height: 21.84px;
+  color: #000;
+  outline: 0;
+  -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 form .gap {
-    height: 30px;
+  height: 30px;
 }
 
 .call-info {
-    padding: 5px 0;
-    font-size: 10px;
-    line-height: 15px;
-    color: #444;
-    outline: 0;
-    text-align: left;
+  padding: 5px 0;
+  font-size: 10px;
+  line-height: 15px;
+  color: #444;
+  outline: 0;
+  text-align: left;
 }
 
 .password {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .password-icon-wrapper {
-    position: relative;
+  position: relative;
 }
 
 #password {
-    padding-right: 33px;
+  padding-right: 33px;
 }
 
 .password-icon {
-    background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png) 0 50%/21px 21px no-repeat;
-    width: 33px;
-    position: absolute;
-    right: 1px;
-    height: 32px;
-    top: 1px;
-    bottom: 1px;
+  background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png) 0 50%/21px 21px no-repeat;
+  width: 33px;
+  position: absolute;
+  right: 1px;
+  height: 32px;
+  top: 1px;
+  bottom: 1px;
 }
 
 .form-button {
-    height: 44px;
-    width: 100%;
-    margin-bottom: 41px;
+  height: 44px;
+  width: 100%;
+  margin-bottom: 41px;
 }
 
 /* Form footer */
@@ -315,14 +315,14 @@ form .gap {
   justify-content: center;
   width: 100%;
   height: 53px;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   text-align: center;
   font-size: 10px;
-  color: #8d9096;  
+  color: #8d9096;
 }
 
 .form-footer a {
-    font-size: inherit;
+  font-size: inherit;
 }
 
 /* footer */
