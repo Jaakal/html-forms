@@ -1,0 +1,66 @@
+html, body {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    padding: 10px 30px;
+    outline: none;
+    
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nav-link {
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: right;
+    color: #505050;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #0077c5;
+}
+
+.nav-button {
+    height: 34px;
+    background-color: #0077C5;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13.5px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.nav-button:focus {
+    outline: none;
+}
+
+.nav-button span {
+    display: inline-block;
+    width: 10.8px;
+    height: 13.5px;
+    margin: 2px 4px 0 0;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png);
+}
