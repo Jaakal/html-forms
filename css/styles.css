@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #eceef1;
 }
 
 /* header */
@@ -167,6 +168,56 @@ nav {
   background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/turbo-tax-text.svg) no-repeat;
   transform: translateX(142px);
   animation: 1.1s slide-left 2s cubic-bezier(0.7, 0, 0, 1) forwards, 733ms fade-in 2.367s ease-in forwards;
+}
+
+/* main form */
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+
+}
+
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  width: 380px;
+  height: 668px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+}
+
+.form-title {
+    color: #4C4C4C;    
+    line-height: 26.4px;    
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.form-sub-title {
+    margin-top: 20px;
+    color: #4c4c4c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+}
+
+.form a {
+  text-decoration: none;
+  color: #0077c5;
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.form a:hover {
+  text-decoration: underline;
 }
 
 /* footer */
