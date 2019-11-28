@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
@@ -105,7 +111,7 @@ form .gap {
   height: 30px;
 }
 
-.form .gap {
+.form-container .gap {
   flex: 1;
 }
 
@@ -194,7 +200,7 @@ form .gap {
   justify-content: center;
 }
 
-.form {
+.form-container {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -226,7 +232,7 @@ form .gap {
   line-height: 16.8px;
 }
 
-.form a {
+.form-container a {
   margin-bottom: 20px;
   text-decoration: none;
   color: #0077c5;
@@ -245,7 +251,7 @@ form .gap {
   text-align: center;
 }
 
-.form a:hover {
+.form-container a:hover {
   text-decoration: underline;
 }
 
